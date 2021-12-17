@@ -23,7 +23,6 @@ class UsersRepository implements IUsersRepository {
     Object.assign(newUser, {
       name,
       email,
-      admin: false,
     });
     this.users.push(newUser);
     return newUser;
